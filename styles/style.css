@@ -37,6 +37,12 @@ html, body {
   width: 30%;
 }
 
+.more-info {
+  margin-left: 50px;
+  width: 150px;
+  height: 40px;
+}
+
 footer {
   background-color: #030d2c;
   color: aliceblue;
