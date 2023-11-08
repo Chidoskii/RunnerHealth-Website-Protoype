@@ -1,0 +1,61 @@
+.page-content {
+  min-height: 60vh;
+  padding-top: 15vh;
+  background-color: whitesmoke;
+}
+
+.subnav {
+  box-shadow: 1px 1px 10px 3px #ccc;
+}
+
+.creds {
+  margin: 20px auto;
+  width: 20%;
+}
+
+.creds-img {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input.creds-field {
+  width: 95%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 47%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  width: 47%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1670px) {
+  .page-content {
+    min-height: 58vh;
+  }
+
+  .footer-flex {
+    min-height: 25.5vh;
+  }
+  
+}
