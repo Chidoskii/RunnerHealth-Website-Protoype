@@ -49,8 +49,8 @@
       <div class="dropdown">
         <button onclick="myFunction2()" class="dropbtn">Patients</button>
         <div id="myDropdown2" class="dropdown-content">
-          <a href="#">Login</a>
-          <a href="./patient_signup.html">Sign Up</a>
+          <a href="./patient_login.html">Login</a>
+          <a href="#">Sign Up</a>
           <a href="./patientFAQ.html">FAQ</a>
         </div>
       </div>
@@ -58,20 +58,24 @@
     <div class="page-content">
       <div class="creds-can">
         <div class="creds-img">
-          <img src="../imgs/login_logo.png" alt="doctor and patient" />
+          <img src="../imgs/signup_logo.png" alt="doctor and patient" />
         </div>
         <form class="creds">
+          <label for="fname">First Name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last Name:</label><br />
+          <input type="text" id="lname" name="lname" /><br />
           <label for="email">Email:</label><br />
           <input type="text" id="email" name="email" /><br />
           <label for="password">Password:</label><br />
           <input type="text" id="password" name="password" /><br /><br />
-          <div class="form-actions">
-            <input type="submit" value="Login" />
-            <input
-              type="button"
-              value="Sign Up"
-              onclick="window.open('./patient_signup.html', '_self')"
-            />
+          <div class="form-actions-su">
+            <input type="submit" value="Sign up" />
+            <p>
+              <a class="login-link" href="./patient_login.html"
+                >Already have an account? Login here</a
+              >
+            </p>
           </div>
         </form>
       </div>
