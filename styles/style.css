@@ -214,3 +214,15 @@ footer {
 }
 
 }
+
+@media screen and (max-height: 850px) {
+  .subnav {
+    background-color: #e5e7eb;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 62px;
+    min-height: 5.4vh;
+  }
+}

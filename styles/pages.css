@@ -1,18 +1,117 @@
 .page-content {
   min-height: 60vh;
-  padding-top: 15vh;
+  padding-top: 10vh;
   padding-bottom: 10vh;
   background-color: whitesmoke;
+  width: 100%;
 }
 
 .subnav {
   box-shadow: 1px 1px 10px 3px #ccc;
 }
 
+.about-can {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about, #team, #mission, #services, #contact {
+  min-height: 50vh;
+  padding-top: 105px;
+}
+
+.about-desc {
+  text-align: left;
+}
+
+.team-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.member-can {
+  background-color: #e5e7eb;
+  display: flex;
+  margin: 10px 0;
+  width: 49%;
+  
+}
+
+#memb-img-1 {
+  background-image: url('../imgs/dwayne-the-rock-johnson-gettyimages-1061959920.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  height: 118px;
+  width: 50%;
+}
+
+#memb-img-2 {
+  background-image: url('../imgs/dwayne-the-rock-johnson-gettyimages-1061959920.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  height: 118px;
+  width: 50%;
+}
+
+#memb-img-3 {
+  background-image: url('../imgs/dwayne-the-rock-johnson-gettyimages-1061959920.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  height: 118px;
+  width: 50%;
+}
+
+#memb-img-4 {
+  background-image: url('../imgs/dwayne-the-rock-johnson-gettyimages-1061959920.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  height: 118px;
+  width: 50%;
+}
+
+.service-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.service-can {
+  background-color: #e5e7eb;
+  width: 22%;
+  height: 40vh;
+}
+
+.emp-fork {
+  padding: 100px 25px;
+}
+
+.matrix {
+  margin: 0 auto;
+  width: 40%;
+}
+
 .creds-can {
   background-color: #030d2c;
-  border-radius: 5px;
-  margin: 0 auto;
+  border-radius: 15px;
+  margin: 100px auto;
   width: 30%;
 }
 
@@ -29,6 +128,12 @@
   margin-top: 20px;
   padding-top: 25px;
   text-align: center;
+}
+
+.form-title {
+  text-align: center;
+  color: #EBB82C;
+  font-size: 14pt;
 }
 
 input[type=text] {
@@ -77,11 +182,21 @@ input[type=button] {
   text-decoration: none;
 }
 
+.faq-can {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.faq-title {
+  text-align: center;
+  margin: 50px;
+}
+
 @media screen and (max-width: 1670px) {
   .creds-can {
     background-color: #030d2c;
-    border-radius: 5px;
-    margin: 0 auto;
+    border-radius: 15px;
+    margin: 100px auto;
     width: 60%;
   }
   
@@ -90,9 +205,19 @@ input[type=button] {
 @media screen and (max-width: 764px) {
   .creds-can {
     background-color: #030d2c;
-    border-radius: 5px;
-    margin: 0 auto;
+    border-radius: 15px;
+    margin: 75px auto;
     width: 80%;
   }
   
+}
+
+@media screen and (max-height: 850px) {
+  .creds-can {
+    background-color: #030d2c;
+    border-radius: 15px;
+    padding: 100px 0px;
+    margin: 75px auto;
+    width: 50%;
+  }
 }
